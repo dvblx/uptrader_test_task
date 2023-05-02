@@ -1,0 +1,13 @@
+{% extends 'menu_app/base.html' %}
+
+{% block title %} Все меню {% endblock %}
+
+{% load menu_tags %}
+{% block content %}
+
+{% for menu in menus %}
+    {% draw_menu menu.menu_name %}
+{% endfor %}
+
+
+{% endblock %}

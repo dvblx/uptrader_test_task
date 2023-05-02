@@ -1,0 +1,13 @@
+{% load menu_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  {% for root in queryset %}
+    {{ root.mi_name }}
+  {% endfor %}
+</body>
+</html>

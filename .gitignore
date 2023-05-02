@@ -1,0 +1,5 @@
+**/.idea
+**/__pycache__
+/test_task/test_task/keys.py
+.venv
+/test_task/db.sqlite3
